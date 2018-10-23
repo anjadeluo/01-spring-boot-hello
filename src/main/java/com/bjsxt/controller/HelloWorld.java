@@ -23,11 +23,4 @@ public class HelloWorld {
 		return map;
 	}
 
-	@RequestMapping("/hello2")
-	@ResponseBody
-	public Map<String, Object> showHelloWorld2(){
-		Map<String, Object> map = new HashMap<>();
-		map.put("msg", "HelloWorld");
-		return map;
-	}
 }
